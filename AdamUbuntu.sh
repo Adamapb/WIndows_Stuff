@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash **ADAM ADD LYNIS**
 
 echo "Run as root; confirm forensics complete?"
 
@@ -47,7 +47,7 @@ cat > /etc/ssh/sshd_config <<"__EOF__"
 Authentication:
 
 LoginGraceTime 2m
-ermitRootLogin no
+PermitRootLogin no
 StrictModes yes
 MaxAuthTries 0
 MaxSessions 0
@@ -81,7 +81,7 @@ avgscan / > avgscan.log
 cd
 
 
-#Rootkit Scans-Write to /etc/rootkits.log/rootkits2.log
+#Rootkit Scans-Write to /etc/rootkits.log--rootkits2.log
 apt-get install chkrootkit -y
 cd /etc
 touch rootkits.log
@@ -94,8 +94,7 @@ touch rootkits2.log
 rkhunter --check > rootkits2.log
 cd
 
-sudo apt install firefox
-
+sudo apt install firefox -y
 
 #Configures ufw
 apt-get install ufw -y
@@ -196,8 +195,27 @@ ps axk start_time -o start_time,pid,user,cmd >> /var/local/pslist.log
 apt-get install clamav -y
 freshclam
 clamscan -r /*
+
 apt-get autoremove -y
 apt-get autoclean -y
 apt-get clean -y
 
 reboot
+
+
+#Order of Operations (Take notes throughout)
+#1.Read readme
+#2.answer forensics
+#3.git clone https://github.com/Adamapb/...
+#./<file name>
+#4.Check scoring
+#5.do user tasks (Perms, acct types, passwords, super users)
+#6.Check output populated earlier in script (in comments)
+#7.check scoring
+#8.Review readme **CAREFULLY**
+#9.View running services/daemons
+#10.view active ports
+#11.check system spec utilization
+#12.check scoring
+#13.review readme, double check update status on named applications
+#14.If not 100, **brainstorm**, review config files, review running services
