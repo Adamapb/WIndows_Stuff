@@ -1,4 +1,9 @@
 #To run- 
+#git clone https://github.com/Adamapb/Adam-s-CP-Scripts
+#cd Adam-s-CP-Scripts
+#sudo bash processpull.sh
+#
+#
 #Pushes list of running processes on **completed** Ubuntu image to the github repo, then removes all added files.
 cd
 sudo -i
