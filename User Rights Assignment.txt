@@ -1,0 +1,44 @@
+Access Credential Manager as a trusted caller- (blank)
+Access this computer from the network- Administrators
+Act as part of the operating system- (blank)
+Add workstations to domain- Administrators
+Adjust memory quotas for a process- Administrators
+Allow log on locally- Administrators and Users
+Allow log on through remote Desktop Services- (blank)
+Back up files and directories- Administrators
+Bypass traverse checking- Administrators
+Change the system time- Local Service, Administrators
+Change the time zone- Local Service, Administrators
+Create a pagefile- Administrators
+Create a token object- (blank)
+Create global object- Local Service, Network Service, Administrators
+Create permanent shared objects- (blank)
+Create symbolic links- Administrators
+Debug programs- (blank)
+Deny access to this computer from the network- Guest and Guests
+Deny log on as a batch job- Guest and Guests
+Deny log on as a service- Guest and Guests
+Deny log on locally- Guest and Guests
+Deny log on through Remote Desktop Services- Guest, Guests, and Everybody
+Enable computer and user accounts to be trusted for delegation- (blank)
+Force shutdown from a remote system- (blank)
+Generate security audits- LOCAL SERVICE, NETWORK SERVICE, Administrators
+Impersonate a client after authentication- LOCAL SERVICE, NETWORK SERVICE, Administrators
+Increase a process working set- Administrator(THE BUILD-IN ADMIN)
+Increase scheduling priority- Administrators
+Lock and unload device drivers- Administrators
+Lock pages in memory- (blank)
+Log on as a batch job- (blank)
+Log on as a service- (blank)
+Manage auditing and security log- Administrators
+Modify an object label- (blank)
+Modify firmware environmental values- Administrators
+Preform volume maintenance tasks- Administrators
+Profile single process- Administrators
+Profile system performance- Administrators
+Remove computer from docking station- Administrators
+Replace a process level token- LOCAL SERVICE, NETWORK SERVICE, Administrators
+Restore files and directories- Administrators
+Shut down the system- Administrators, Users
+Synchronize directory service data- (blank)
+Take ownership of files or other objects- Administrators	

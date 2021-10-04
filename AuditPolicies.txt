@@ -1,0 +1,74 @@
+Advanced Audit Policies – Local Group Policy Object – Account Logon (Note: All audit policies may vary)
+Audit Credential Validation Success and Failure
+Audit Kerberos Authentication Service No Auditing
+Audit Kerberos Service Ticket Operations No Auditing
+Audit Other Account Logon Events No Auditing
+
+Advanced Audit Policies – Local Group Policy Object – Account Management
+Audit Application Group Management No Auditing
+Audit Computer Account Management Success and Failure
+Audit Distribution Group Management No Auditing
+Audit Other Account Management Events Success and Failure
+Audit Security Group Management Success and Failure
+Audit User Account Management Success and Failure
+
+Advanced Audit Policies – Local Group Policy Object – Detailed Tracking
+Audit DPAPI Activity No Auditing
+Audit Process Creation Success
+Audit Process Termination No Auditing
+Audit RPC Events No Auditing
+
+Advanced Audit Policies – Local Group Policy Object – DS Access
+Audit Detailed Directory Service Replication No Auditing
+Audit Directory Service Access No Auditing
+Audit Directory Service Changes No Auditing
+Audit Directory Service Replication No Auditing
+
+Advanced Audit Policies – Local Group Policy Object – Logon/Logoff
+Audit Account Lockout Failure
+Audit IPsec Extended Mode No Auditing
+Audit IPsec Main Mode No Auditing
+Audit IPsec Quick Mode No Auditing
+Audit Logoff Success
+Audit Logon Success and Failure
+Audit Network Policy Server No Auditing
+Audit Other Logon/Logoff Events No Auditing
+Audit Special Logon Success
+
+Advanced Audit Policies – Local Group Policy Object – Object Access
+Audit Application Generated No Auditing
+Audit Certification Service No Auditing
+Audit Detailed File Share No Auditing
+Audit File Share No Auditing
+Audit File System Failure
+Audit Filtering Platform Connection No Auditing
+Audit Filtering Platform Packet Drop No Auditing
+Audit Handle Manipulation No Auditing
+Audit Kernel Object Failure
+Audit Other Object Access Events No Auditing
+Audit Registry Failure
+Audit SAM Failure
+
+Advanced Audit Policies – Local Group Policy Object – Policy Change
+Audit Audit Policy Changes Success and Failure
+Audit Authentication Policy Changes Success
+Audit Authorization Policy Changes Success
+Audit Filtering Platform Policy Change No Auditing
+Audit MPSSVC Rule-Level Policy Change No Auditing
+Audit Other Policy Change Events Success and Failure
+
+Advanced Audit Policies – Local Group Policy Object – Privilege Use
+Audit Non Sensitive Privilege Use Failures
+Audit Other Privilege Use Events No Auditing
+Audit Sensitive Privilege Use Success and Failure
+
+Advanced Audit Policies – Local Group Policy Object – System
+Audit IPsec Driver Success and Failure
+Audit Other System Events No Auditing
+Audit Security State Change Success and Failure
+Audit Security System Extension Success and Failure
+Audit System Integrity Success and Failure
+
+Advanced Audit Policies – Local Group Policy Object – Global Object Access Auditing
+Audit File System Success and Failure
+Audit Registry Success and Failure
