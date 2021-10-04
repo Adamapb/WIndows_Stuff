@@ -135,6 +135,7 @@ Notes:
 -Review task scheduler. Always run a restart before stopping scoring.		
 -use sysinternals' accessenums.exe to review file permissions. Files should only have perms for Administrator and the user they belong to.
 -use run to launch "msconfg.exe to show programs that run on startup
+-If lost, cross-reference categories you've earned points in with vulnerability categories from previous seasons to form an idea of what you're missing. Adam can get them for you.
 		
 		
 		
