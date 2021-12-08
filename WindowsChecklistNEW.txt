@@ -143,6 +143,7 @@ Notes/If Stuck:
 -netstat will also show the origin file of a process. Be sure to kill the origin process AND add a firewall rule for that port, if needed.
 -make sure File and Printer Sharing, Remote Assistance, Remote Desktop, and UPnP are ALL OFF
 -Try Glary utilities
+-Google "How to harden *critical service from readme*"
 
 Exhibit 1-
 -Administrators
