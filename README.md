@@ -1,6 +1,6 @@
 # WIndows_Stuff
 Cyber Patriot Windows materials
-ORDER OF OPERATIONS-
+**ORDER OF OPERATIONS-**
 
 1. Boot machines, enter team ID, etc.
 2. Review README
