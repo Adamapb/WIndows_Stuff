@@ -70,7 +70,7 @@ if ($option -eq 1) {
     Write-Warning "STARTING audit m9, this might take a while"
     #account policies
 
-    net accounts /UNIQUEPW:24 /MAXPWAGE:60 /MINPWAGE:1 /MINPWLEN:12 /lockoutthreshold:5
+    net accounts /UNIQUEPW:24 /MAXPWAGE:30 /MINPWAGE:15 /MINPWLEN:12 /lockoutthreshold:5
   
     #localpolicies-audit policies
     auditpol /set /category:"Account Logon" /success:enable #is everything really just success and failure?
