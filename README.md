@@ -15,5 +15,6 @@ Cyber Patriot Windows materials
 6. run "./winscript.ps1"
 7. Review "scripterino" directory
 8. If **ADAM** says 2nd script is operational, run it as a .bat
-9. Proceed with checklist, completing what the script did not
-10. Review the notes/tips section of the checklist
+9. Script does not handle user rights. Configure manually.
+10. Proceed with checklist, completing what the script did not
+11. Review the notes/tips section of the checklist
