@@ -144,6 +144,7 @@ Notes/If Stuck:
 -make sure File and Printer Sharing, Remote Assistance, Remote Desktop, and UPnP are ALL OFF
 -Try Glary utilities
 -Google "How to harden *critical service from readme*"
+-Try superantispyware
 
 Exhibit 1-
 -Administrators
