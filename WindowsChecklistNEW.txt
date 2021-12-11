@@ -145,6 +145,7 @@ Notes/If Stuck:
 -Try Glary utilities
 -Google "How to harden *critical service from readme*"
 -Try superantispyware
+-use malwarebytes anti-rootkit
 
 Exhibit 1-
 -Administrators
