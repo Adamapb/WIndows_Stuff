@@ -60,14 +60,14 @@ if ($option -eq 1) {
     $guestAccount =Get-WMIObject Win32_UserAccount -Filter "Name='Guest'"
     $result =$guestAccount.Rename("guestBOI")
 
-    #REKING PLEBS AND THEIR SHIT PASSWORDS
-    Write-Warning "reking plebs and their shit passwords, changing to Asecurepassword123!"
+    #rewriting passwords
+    Write-Warning "rewriting passwords; changing to 103624Apb!"
     Get-WmiObject win32_useraccount | Foreach-object {
-    ([adsi]("WinNT://"+$_.caption).replace("\","/")).SetPassword("Asecurepassword123!")
+    ([adsi]("WinNT://"+$_.caption).replace("\","/")).SetPassword("103624Apb!")
     }
     
     #AUDIT BABY
-    Write-Warning "STARTING audit m9, this might take a while"
+    Write-Warning "starting audits... be patient"
     #account policies
 
     net accounts /UNIQUEPW:24 /MAXPWAGE:30 /MINPWAGE:15 /MINPWLEN:12 /lockoutthreshold:5
@@ -95,7 +95,7 @@ if ($option -eq 1) {
     #subcategories of advanced audit polcies
 
     #grabbing network shares check if irregular
-    Write-Warning "grabbing smb shares bb"
+    Write-Warning "grabbing smb shares"
     net share > scripterino\shares.txt
     	
     #flush DNS
@@ -108,7 +108,7 @@ if ($option -eq 1) {
     Get-ChildItem -Path "C:\Windows\System32\drivers\etc\hosts" | Copy-Item -Destination C:\Users\$user\Desktop\scripterino\hosts
 
 
-	Write-Warning "Features Bbbbb"
+	Write-Warning "managing features"
 	
 	dism /online /disable-feature /featurename:IIS-WebServerRole
 	dism /online /disable-feature /featurename:IIS-WebServer
@@ -165,11 +165,11 @@ if ($option -eq 1) {
     Set-SmbServerConfiguration -EnableSMB1Protocol $false -Force
 
     #processes that have bigger loads
-    Write-Warning "investigating shady processes"
+    Write-Warning "listing potential bad processes"
     Get-Process | Where-Object {$_.WorkingSet -gt 20000000} > scripterino\interestingprocess.txt
 
     #firewall settings
-    Write-Warning "Hoisting up the firewall"
+    Write-Warning "configuring firewall"
     Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 	Set-NetFirewallProfile -DefaultInboundAction Block -DefaultOutboundAction Allow -NotifyOnListen True -AllowUnicastResponseToMulticast True -LogFileName %SystemRoot%\System32\LogFiles\Firewall\pfirewall.log
     netsh advfirewall import "C:\Users\$user\Desktop\Win10Firewall.wfw"
@@ -203,7 +203,7 @@ if ($option -eq 1) {
 
 
 
-    Write-Warning "starting registry cancer"  
+    Write-Warning "starting registry rewrites"  
     Start-Sleep -s 2
 
     #disable remote desktop
@@ -426,7 +426,7 @@ if ($option -eq 1) {
     #Smtpsvc = SMTP service
     #Termservice = remote desktop
 
-    Write-Warning "shrinking attack service *hit the dab*"
+    Write-Warning "fucking annihilating bad shit"
     Start-Sleep -s 2
 
     #badservices
