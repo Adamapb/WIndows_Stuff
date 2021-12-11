@@ -1,0 +1,85 @@
+      Administrative Templates
+        ------------------------
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\CleanTIF
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Main\Start Page
+                Value:       97, 0, 98, 0, 111, 0, 117, 0, 116, 0, 58, 0, 98, 0, 108, 0, 97, 0, 110, 0, 107, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\CleanInPrivateBlocking
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel\DisableDeletePasswords
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\CleanHistory
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel\HomePage
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Url History\DaysToKeep
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\CleanTrackingProtection
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\CleanDownloadHistory
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel\DisableDeleteForms
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\CleanCookies
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel\Settings
+                State:       disabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\UseAllowList
+                Value:       0, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel\History
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Main\DisableFirstRunCustomize
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\PushNotifications\NoTileApplicationNotification
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: Local Group Policy
+                Folder Id: SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy\ClearBrowsingHistoryOnExit
+                Value:       1, 0, 0, 0
+                State:       Enabled
