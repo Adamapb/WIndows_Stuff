@@ -146,6 +146,7 @@ Notes/If Stuck:
 -Google "How to harden *critical service from readme*"
 -Try superantispyware
 -use malwarebytes anti-rootkit
+-make sure no accounts are "password never expires"
 
 Exhibit 1-
 -Administrators
