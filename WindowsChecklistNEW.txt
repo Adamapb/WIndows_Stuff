@@ -147,6 +147,7 @@ Notes/If Stuck:
 -Try superantispyware
 -use malwarebytes anti-rootkit
 -make sure no accounts are "password never expires"
+-check hosts file
 
 Exhibit 1-
 -Administrators
