@@ -199,4 +199,5 @@ Server Notes:
 -https://docs.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server may also be of assistance
 -make note of script @ https://github.com/BaiqingL/CyberPatriotScripts
 -make note of script @ https://github.com/xFaraday/EzScript/blob/master/newezscript.ps1
--
+-https://newhelptech.wordpress.com/2017/07/02/step-by-step-implementing-dns-security-in-windows-server-2016/
+
